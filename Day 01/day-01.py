@@ -1,14 +1,15 @@
-freq_changes = tuple(open("Day 01/day-01.txt", 'r'))
+# Read the puzzle file
+freq_changes = tuple(open("day-01.txt", 'r'))
 result_freq = 0;
 
-#First part of the day
+# First part of the day
 
 for freq_change in freq_changes:
     result_freq += int(freq_change)
 
 print("Result frequency: ", result_freq)
 
-#Second part of the day
+# Second part of the day
 
 freq_set = {0}
 actual_freq = 0
